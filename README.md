@@ -10,7 +10,9 @@
 <a href="https://sushanks07.wixsite.com/my-site-ss21" target="blank"><img align="left" src="https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg" alt="" height="30" width="40" /></a>
 </p>
 
-<p><h3 align="left">👨‍💻 About Me:</h3></p>
+<br>
+<h3 align="left">👨‍💻 About Me:</h3>
+<br>
 
 > Experienced in delivering software projects as a React JS Web Developer, with 11 months of hands-on experience. Developed a dashboard navigation application for XOS Electric Trucks — Los Angeles, CA.
 > Worked jointly in JavaScript, Modern CSS Frameworks, Node.js, Electron, and Google Maps API. Dedicated to continuous learning and practical application in driving innovative tech solutions.
@@ -26,14 +28,11 @@
 > - **Responsive Web Design**
 > - **MERN Stack**
 
-<p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="gitstats" width=400 /></p> 
 <p><img align="center" src="https://readmestats.999857.xyz/api?username=SushankSharma&show_icons=true&locale=en&theme=dark" alt="repostats"/></p>
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="githistory" style="padding-right:30px"/></p>
-</p>
-</p>
 
-<p>
+<br>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
 <a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="cplusplus" width="40" height="40"/> </a>
@@ -47,8 +46,8 @@
 <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a>
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
 </p>
-</p>
+<br>
 
-<p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="TrophyVercel" /></p>
+<p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="TrophyVercel" /> </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="ProfileCount" /> </p>

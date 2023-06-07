@@ -11,18 +11,22 @@
   Experienced in delivering software projects as a React JS Web Developer, with 11 months of hands-on experience. Developed a dashboard navigation application for XOS Electric Trucks — Los Angeles, CA. Worked jointly in JavaScript, Modern CSS Frameworks, Node.js, Electron, and Google Maps API. Dedicated to continuous learning and practical application in driving innovative tech solutions.
 
 <h3 align="left">🚀 Skills:</h3>
-<li align="left"
-- JavaScript
-- Node.js
-- React.js
-- Redux.js
-- HTML | CSS
-- Responsive Web Design
-- Git
-- Testing and Debugging
-- Problem Solving> </li>
 
-<h3 align="left"> - 📫 Email:</h3> <p **sushanks07@gmail.com** ></p>
+- **Java**
+
+- **JavaScript**
+
+- **HTML | CSS**
+
+- **React.js**
+
+- **Node.js**
+
+- **Redux.js**
+
+- **Responsive Web Design**
+
+- **MERN Stack**
 
 <h3 align="left">Let's Connect:</h3>
 <p align="left">
@@ -48,3 +52,7 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="gitstats" width=400 /></p> 
 <p><img align="center" src="https://readmestats.999857.xyz/api?username=SushankSharma&show_icons=true&locale=en&theme=dark" alt="repostats"/></p>
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="githistory" style="padding-right:30px"/></p>
+
+<h3 align="centre">📫 Email:</h3>
+
+- **sushanks07@gmail.com**

@@ -31,13 +31,13 @@
 <h2 align="left">Languages and Tools:</h2>
 
 <p align="left">
-<a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="cplusplus" height="30" width="40" /></a>
-<a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/intro" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" height="30" width="40" /></a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" height="30" width="40" /></a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" height="30" width="40" /></a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" height="30" width="40" /></a>
-<a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg" alt="selenium" height="30" width="40" /></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" height="30" width="40" /></a>
+<a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="cplusplus" height="30" width="50" /></a>
+<a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/intro" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" height="30" width="50" /></a>
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" height="30" width="50" /></a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" height="30" width="50" /></a>
+<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" height="30" width="50" /></a>
+<a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg" alt="selenium" height="30" width="50" /></a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" height="30" width="50" /></a>
 </p>
 
 <p align="left"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="gitstats"/> </p>

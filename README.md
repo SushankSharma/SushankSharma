@@ -1,19 +1,20 @@
-![Header]<img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" align="center" alt="Profile Image" />
+**_[`"Home"`](https://github.com/SushankSharma)_** <img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" align="center" alt="Profile Image" />
 
 <h1 align="center">Hi 👋 Sushank Sharma here!</h1>
-<h5 align="center">React JS Web Developer | Passionate about Tech</h5>
+<h4 align="center">React JS Web Developer | Passionate about Tech</h4>
 
-<h5 align="center">📫 sushanks07@gmail.com</h5>
+<h4 align="center">
 
-<h2 align="center">🔗 Connect with Me:</h2>
+**_[sushanks07@gmail.com](sushanks07@gmail.com)_** </h4>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-SushankSharma-blue)](https://www.linkedin.com/in/sushank-sharma-ss21/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-SushankSharma-green)](https://sushanks07.wixsite.com/my-site-ss21)
+<h2 align="left">🔗 Let's Connect:</h2>
+
+> > [!**_[LinkedIn]_**(https://img.shields.io/badge/LinkedIn-SushankSharma-blue)](https://www.linkedin.com/in/sushank-sharma-ss21/) > > [!**_[Portfolio]_**(https://img.shields.io/badge/Portfolio-SushankSharma-green)](https://sushanks07.wixsite.com/my-site-ss21)
 
 <h2 align="left">👨‍💻 About Me:</h2>
 
-> Experienced in delivering software projects as a React JS Web Developer, with 11 months of hands-on experience. Developed a dashboard navigation application for XOS Electric Trucks — Los Angeles, CA.
-> Worked jointly in JavaScript, Modern CSS Frameworks, Node.js, Electron, and Google Maps API. Dedicated to continuous learning and practical application in driving innovative tech solutions.
+> Experienced in delivering software projects as a React JS Web Developer, with 15 months of hands-on experience. Developed a dashboard navigation application for **_[`"XOS Electric Trucks — Los Angeles, CA"`](https://www.xostrucks.com/)_**.
+> Worked jointly in `"JavaScript"`, `"Modern CSS Frameworks"`, `"Node.js"`, `"Electron"`, and `"Google Maps API"`. Dedicated to continuous learning and practical application in driving innovative tech solutions.
 
 <h2 align="left">🚀 Skills:</h2>
 
@@ -45,4 +46,4 @@
 <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="TrophyVercel" /> 
 </p>
 
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="ProfileCount" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="ProfileCount" /> </p>

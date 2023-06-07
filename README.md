@@ -11,7 +11,9 @@
 </p>
 
 <br>
+<p >
 <h3 align="left">👨‍💻 About Me:</h3>
+</p>
 <br>
 
 > Experienced in delivering software projects as a React JS Web Developer, with 11 months of hands-on experience. Developed a dashboard navigation application for XOS Electric Trucks — Los Angeles, CA.
@@ -28,10 +30,6 @@
 > - **Responsive Web Design**
 > - **MERN Stack**
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="gitstats" width=400 /></p> 
-<p><img align="center" src="https://readmestats.999857.xyz/api?username=SushankSharma&show_icons=true&locale=en&theme=dark" alt="repostats"/></p>
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="githistory" style="padding-right:30px"/></p>
-
 <br>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
@@ -47,6 +45,10 @@
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
 </p>
 <br>
+
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="gitstats" width=400 /></p> 
+<p><img align="center" src="https://readmestats.999857.xyz/api?username=SushankSharma&show_icons=true&locale=en&theme=dark" alt="repostats"/></p>
+<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="githistory" style="padding-right:30px"/></p>
 
 <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="TrophyVercel" /> </p>
 

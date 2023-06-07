@@ -9,7 +9,8 @@
 
 <h2 align="left">🔗 Let's Connect:</h2>
 
-> > [!**_[LinkedIn]_**(https://img.shields.io/badge/LinkedIn-SushankSharma-blue)](https://www.linkedin.com/in/sushank-sharma-ss21/) > > [!**_[Portfolio]_**(https://img.shields.io/badge/Portfolio-SushankSharma-green)](https://sushanks07.wixsite.com/my-site-ss21)
+> > [!**_[LinkedIn]_**(https://img.shields.io/badge/LinkedIn-SushankSharma-blue)](https://www.linkedin.com/in/sushank-sharma-ss21/)
+> > [!**_[Portfolio]_**(https://img.shields.io/badge/Portfolio-SushankSharma-green)](https://sushanks07.wixsite.com/my-site-ss21)
 
 <h2 align="left">👨‍💻 About Me:</h2>
 

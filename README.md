@@ -11,7 +11,7 @@
   Experienced in delivering software projects as a React JS Web Developer, with 11 months of hands-on experience. Developed a dashboard navigation application for XOS Electric Trucks — Los Angeles, CA. Worked jointly in JavaScript, Modern CSS Frameworks, Node.js, Electron, and Google Maps API. Dedicated to continuous learning and practical application in driving innovative tech solutions.
 
 <h3 align="left">🚀 Skills:</h3>
-<p align="left"
+<p align="left">
 - JavaScript
 - Node.js
 - React.js
@@ -20,7 +20,7 @@
 - Responsive Web Design
 - Git
 - Testing and Debugging
-- Problem Solving >
+- Problem Solving </p>
 
 <h3 align="left"> - 📫 Email:</h3> <p **sushanks07@gmail.com** ></p>
 

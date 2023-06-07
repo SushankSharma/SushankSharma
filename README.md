@@ -28,7 +28,7 @@
 <h3 align="left">Let's Connect:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/sushank-sharma-ss21/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="" height="30" width="40" /></a>
-<a href="https://sushanks07.wixsite.com/my-site-ss21" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/432/432394.png?w=740&t=st=1686164030~exp=1686164630~hmac=b3173c9554aac2400d69eb72b2ce6686788742cf100f1d7b0a94f322db2630e8" alt="" height="30" width="40" /></a>
+<a href="https://sushanks07.wixsite.com/my-site-ss21" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg" alt="" height="30" width="40" /></a>
 </p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="gitstats" width=400 /></p> 
@@ -36,7 +36,7 @@
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="githistory" style="padding-right:30px"/></p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
+<p align="left">
 <a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="cplusplus" width="40" height="40"/> </a>
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 

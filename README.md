@@ -1,11 +1,11 @@
-<p align="center"> <img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" alt="profileImage" />
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" alt="Profile Image" />
 </p>
 
 <h1 align="center"> Hi 👋 Sushank Sharma here!</h1>
-<h5 align="center">
-Ex-Intern @**_[`"Embitel-Tech, Bengaluru"`](https://www.embitel.com/)_** | **TechStack** | **Passionate about Tech**</h5>
+<h5 align="center">Ex-Intern @Embitel-Tech, Bengaluru | TechStack | Passionate about Tech</h5>
 
-<h2 align="left">🔗 Let's Connect:</h2>
+<h2 align="center">🔗 Let's Connect:</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sushank-sharma-ss21/">
@@ -14,83 +14,66 @@ Ex-Intern @**_[`"Embitel-Tech, Bengaluru"`](https://www.embitel.com/)_** | **Tec
   <a href="https://sushanks07.wixsite.com/my-site-ss21">
     <img src="https://img.shields.io/badge/Portfolio-Ss21©️-success?style=for-the-badge&logo=wix" alt="Portfolio" />
   </a>
+  <a href="https://github.com/SushankSharma">
+    <img src="https://img.shields.io/badge/GitHub-SushankSharma-black?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
 </p>
 
 <h2 align="left">👨‍💻 About Me:</h2>
 
-> Experienced in delivering software projects as a React JS Web Developer, with 15 months of hands-on experience. Developed a dashboard navigation application for **[`"XOS Electric Trucks — Los Angeles, CA"`](https://www.xostrucks.com/)**.
-> Worked jointly in **`"JavaScript"`**, **`"Modern CSS Frameworks"`**, **`"Node.js"`**, **`"Electron"`**, and **`"Google Maps API"`**. Dedicated to continuous learning and practical application in driving innovative tech solutions.
+> Experienced in delivering software projects as a React JS Web Developer, with 15 months of hands-on experience. Developed a dashboard navigation application for [XOS Electric Trucks — Los Angeles, CA](https://www.xostrucks.com/). Worked jointly in JavaScript, Modern CSS Frameworks, Node.js, Electron, and Google Maps API. Dedicated to continuous learning and practical application in driving innovative tech solutions.
 
 <h2 align="left">🚀 Skills:</h2>
 
-- **Java**
-- **JavaScript**
-- **HTML | CSS**
-- **React.js**
-- **Node.js**
-- **Redux.js**
-- **Responsive Web Design**
-- **MERN Stack**
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-Proficient-yellow?style=for-the-badge&logo=javascript" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-Proficient-red?style=for-the-badge&logo=html5" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-Proficient-blue?style=for-the-badge&logo=css3" alt="CSS3" />
+  <img src="https://img.shields.io/badge/React.js-Proficient-lightblue?style=for-the-badge&logo=react" alt="React.js" />
+  <img src="https://img.shields.io/badge/Node.js-Proficient-green?style=for-the-badge&logo=node.js" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Redux.js-Proficient-purple?style=for-the-badge&logo=redux" alt="Redux.js" />
+  <img src="https://img.shields.io/badge/Responsive%20Web%20Design-Proficient-lightgrey?style=for-the-badge" alt="Responsive Web Design" />
+  <img src="https://img.shields.io/badge/MERN%20Stack-Proficient-darkgreen?style=for-the-badge" alt="MERN Stack" />
+</p>
 
 <h2 align="left">💻 Languages and Tools:</h2>
 
 <p align="left">
-<a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="java" width="40" height="40"/> </a>
-<a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/intro" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="html5" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-icon.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="bootstrap" width="40" height="40"/> </a>
-<a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/coursera/coursera-icon.svg" alt="coursera" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+  <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="Java" height="50" width="60" />
+  <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="JavaScript" height="50" width="90" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" height="50" width="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" height="50" width="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" height="50" width="50" />
+  <img src="https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg" alt="Coursera" height="50" width="90" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" height="50" width="50" />
+  <!-- Add icons for other languages and tools -->
 </p>
 
-<h2 align="left">📊 GitHub Activity:</h2>
+<h2 align="left">📊 Stats:</h2>
 
-<p align="center">
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="Top Languages" />
+</p>
+
+<p align="left">
+  <img src="https://readmestats.999857.xyz/api?username=SushankSharma&show_icons=true&locale=en&theme=dark" alt="Repository Stats" />
+</p>
+
+<p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="GitHub Streak" />
 </p>
 
-<h2 align="left">🎯 Project Screenshots:</h2>
-
-<p align="center">
-  <img src="https://github.com/SushankSharma/WebNav-Navigation-App" alt="Project 1" width="600" />
-  <br />
-  <em>Project 1</em>
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="GitHub Trophies" /> 
 </p>
 
 <p align="center">
-  <img src="https://github.com/SushankSharma/Breast-Cancer-Detection-DeepLearning" alt="Project 2" width="600" />
-  <br />
-  <em>Project 2</em>
+  <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
-<!-- <h2 align="left">⚙️ Tech Stack:</h2>
-
-<p align="center">
-  <img src=" " alt="Tech Stack 1" width="40" height="40" />
-  <img src=" " alt="Tech Stack 2" width="40" height="40" />
-  <img src=" " alt="Tech Stack 3" width="40" height="40" />
-</p> -->
-
-<h2 align="left">🔥 GitHub Contributions:</h2>
-
-<p align="center">
-  <img src="https://github-readme-contributions.vercel.app/api/?username=SushankSharma&theme=dark" alt="GitHub Contributions" />
-</p>
-
-<h2 align="left">🏆 Certifications:</h2>
-
-<p align="center">
-  <img src="https://drive.google.com/file/d/1VY1zF2NDOsMlCXsFjdGcZOAUBDpbMggU/view" alt="Certification 1" width="120" />
-</p>
-
-<h2 align="left">🌍 Social Media:</h2>
-
-<p align="center">
-  <a href="https://github.com/SushankSharma">
-    <img src="https://img.shields.io/badge/GitHub-SushankSharma-black?style=for-the-badge&logo=github" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/">
-    <img src="https://img.shields.io/badge/LinkedIn-Ss21-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+<p align="right">
+  <a href="mailto:sushanks07@gmail.com">
+    <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="Email" height="40" width="40" />
   </a>
 </p>

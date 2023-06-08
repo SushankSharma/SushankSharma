@@ -2,28 +2,84 @@
   <img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" alt="Profile Image" />
 </p>
 
-<h1 align="center"> Hi 👋 Sushank Sharma here!</h1>
-<h5 align="center">Ex-Intern @Embitel-Tech, Bengaluru | TechStack | Passionate about Tech</h5>
+<h1 align="center" style="font-family: 'Arial Black', sans-serif;"> Hi 👋 Sushank Sharma here!</h1>
+<h5 align="center" style="font-family: 'Arial', sans-serif;">Ex-Intern @Embitel-Tech, Bengaluru | Full Stack Web Developer | Tech Enthusiast</h5>
 
-<h2 align="center">🔗 Let's Connect:</h2>
+<h2 align="center" style="font-family: 'Verdana', sans-serif;">🔗 Let's Connect:</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/">
-    <img src="https://img.shields.io/badge/LinkedIn-Ss21©️-informational?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
-  <a href="https://sushanks07.wixsite.com/my-site-ss21">
-    <img src="https://img.shields.io/badge/Portfolio-Ss21©️-success?style=for-the-badge&logo=wix" alt="Portfolio" />
+  <a href="https://sushanks07.wixsite.com/my-site-ss21" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=wix" alt="Portfolio" />
   </a>
-  <a href="https://github.com/SushankSharma">
-    <img src="https://img.shields.io/badge/GitHub-SushankSharma-black?style=for-the-badge&logo=github" alt="GitHub" />
+  <a href="https://github.com/SushankSharma" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
 </p>
 
-<h2 align="left">👨‍💻 About Me:</h2>
+<h2 align="left" style="font-family: 'Arial', sans-serif;">👨‍💻 About Me:</h2>
 
-> Experienced in delivering software projects as a React JS Web Developer, with 15 months of hands-on experience. Developed a dashboard navigation application for [XOS Electric Trucks — Los Angeles, CA](https://www.xostrucks.com/). Worked jointly in JavaScript, Modern CSS Frameworks, Node.js, Electron, and Google Maps API. Dedicated to continuous learning and practical application in driving innovative tech solutions.
+<p align="left">
+  Experienced Full Stack Web Developer with a passion for creating innovative and user-friendly applications. Proficient in building scalable and responsive web applications using HTML5, CSS3, JavaScript, React, Node.js, Express.js, and MongoDB. Committed to delivering high-quality code and staying up-to-date with the latest industry trends.
+</p>
 
-<h2 align="left">🚀 Skills:</h2>
+<h2 align="left" style="font-family: 'Verdana', sans-serif;">💼 Work Experience:</h2>
+
+<h4>Application Database Repository Management | Internship (Non-Tech)</h4>
+<p>
+  <em>Ministry of Cooperation (MoC), in collaboration with AICTE NEAT</em><br>
+  <em>12/2022 - 01/2023 | Mysuru, Kar | New Delhi</em><br>
+  <a href="https://cooperatives.gov.in/" target="_blank" rel="noopener noreferrer">Minister of Cooperative (cooperatives.gov.in)</a>
+</p>
+
+<ul>
+  <li>Collaborated with the Ministry of Cooperation (MoC) and the AICTE, New Delhi, to facilitate the cooperative database movement in India.</li>
+  <li>Indulged 345 cooperative entries for evaluations and approval, improving the accuracy and efficiency of the database.</li>
+  <li>Reviewed 350+ paperwork articles, promptly fixed discrepancies, and asserted database accuracy.</li>
+</ul>
+
+<h4>Web Development Engineer | Internship (Tech)</h4>
+<p>
+  <em>Embitel Technologies (India) Pvt. Ltd.</em><br>
+  <em>09/2021 - 07/2022 | Bengaluru, Karnataka</em><br>
+  <a href="https://www.embitel.com/" target="_blank" rel="noopener noreferrer">Embitel Technologies</a> | <a href="https://www.xostrucks.com/" target="_blank" rel="noopener noreferrer">XOS Trucks</a>
+</p>
+
+<ul>
+  <li>Created a Dashboard Navigation App for XOS Electric Trucks utilizing the React and Electron frameworks.</li>
+  <li>Integrated Google Maps API to complete the client's precise navigational needs.</li>
+  <li>Constructed an LTE-based HT Quectel Module and integrated an x86 ARM-based application image.</li>
+  <li>Employed Web-Navigation App and other technologies to make line-code restorations and optimize code.</li>
+  <li>Delivered the app image to the customer for a practical estimation and broadly fulfilled the sprint prerequisites by the client.</li>
+</ul>
+
+<h2 align="left" style="font-family: 'Verdana', sans-serif;">📚 Education:</h2>
+
+<h4>Master of Engineering (Embedded Systems)</h4>
+<p>
+  <em>Manipal School of Information Sciences</em><br>
+  <em>08/2020 - 10/2022 | Manipal</em><br>
+  CGPA: 8.68
+</p>
+
+<ul>
+  <li>Thesis: "Web-Nav Navigation System - Automotives"</li>
+</ul>
+
+<h4>Bachelor of Engineering (Electronics & Communication)</h4>
+<p>
+  <em>Visvesvaraya Technological University</em><br>
+  <em>08/2016 - 08/2020 | Mysuru</em><br>
+  CGPA: 6.50
+</p>
+
+<ul>
+  <li>Project/Demo: <a href="https://www.youtube.com/watch?v=tEdk1Uv_6VI" target="_blank" rel="noopener noreferrer">YouTube Link</a></li>
+</ul>
+
+<h2 align="left" style="font-family: 'Verdana', sans-serif;">🚀 Skills:</h2>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java" alt="Java" />
@@ -32,25 +88,10 @@
   <img src="https://img.shields.io/badge/CSS3-Proficient-blue?style=for-the-badge&logo=css3" alt="CSS3" />
   <img src="https://img.shields.io/badge/React.js-Proficient-lightblue?style=for-the-badge&logo=react" alt="React.js" />
   <img src="https://img.shields.io/badge/Node.js-Proficient-green?style=for-the-badge&logo=node.js" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Redux.js-Proficient-purple?style=for-the-badge&logo=redux" alt="Redux.js" />
-  <img src="https://img.shields.io/badge/Responsive%20Web%20Design-Proficient-lightgrey?style=for-the-badge" alt="Responsive Web Design" />
-  <img src="https://img.shields.io/badge/MERN%20Stack-Proficient-darkgreen?style=for-the-badge" alt="MERN Stack" />
+  <img src="https://img.shields.io/badge/MongoDB-Proficient-brightgreen?style=for-the-badge&logo=mongodb" alt="MongoDB" />
 </p>
 
-<h2 align="left">💻 Languages and Tools:</h2>
-
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="Java" height="50" width="60" />
-  <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="JavaScript" height="50" width="90" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" height="50" width="50" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" height="50" width="50" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" height="50" width="50" />
-  <img src="https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg" alt="Coursera" height="50" width="90" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" height="50" width="50" />
-  <!-- Add icons for other languages and tools -->
-</p>
-
-<h2 align="left">📊 Stats:</h2>
+<h2 align="left" style="font-family: 'Verdana', sans-serif;">📈 GitHub Stats:</h2>
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="Top Languages" />
@@ -68,12 +109,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="GitHub Trophies" /> 
 </p>
 
-<p align="center">
+<p align="left" style="margin-left: 0;">
   <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
-<p align="right">
-  <a href="mailto:sushanks07@gmail.com">
-    <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="Email" height="40" width="40" />
-  </a>
 </p>

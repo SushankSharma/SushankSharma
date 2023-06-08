@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center" style="font-family: 'Arial Black', sans-serif;"> Hi 👋 Sushank Sharma here!</h1>
-<h5 align="center" style="font-family: 'Arial', sans-serif;">Ex-Intern @Embitel-Tech, Bengaluru | Full Stack Web Developer | Tech Enthusiast</h5>
+<h4 align="center" style="font-family: 'Arial', sans-serif;">Ex-Intern @Embitel-Tech—Bengaluru | Full Stack Web-Dev. | Tech Enthusiast</h4>
 
 <h2 align="center" style="font-family: 'Verdana', sans-serif;">🔗 Let's Connect:</h2>
 
@@ -109,10 +109,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=6&theme=radical" alt="GitHub Trophies" /> 
 </p>
 
-<p align="center" style="margin-top: 20px;">
-  <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=blueviolet" alt="Profile Views" />
-</p>
-
 <p align="center">
   <img src="https://img.shields.io/github/followers/SushankSharma?label=Followers&style=social" alt="GitHub Followers" />
   <img src="https://img.shields.io/github/stars/SushankSharma?style=social" alt="GitHub Stars" />
@@ -125,7 +121,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SushankSharma&theme=radical" alt="Profile Summary Cards" />
 </p>
 
-<h2 align="center" style="font-family: 'Verdana', sans-serif;">
+<h2 align="left" style="font-family: 'Verdana', sans-serif;">
   ➡️ Fork and Issues:
 </h2>
 
@@ -148,6 +144,6 @@
   - Forks: ![Forks](https://img.shields.io/github/forks/SushankSharma/Breast-Cancer-Detection-DeepLearning?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Forks)
   - Issues: ![Issues](https://img.shields.io/github/issues/SushankSharma/Breast-Cancer-Detection-DeepLearning?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Issues)
 
-<p align="left" style="margin-left: 0;">
-  <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+<p align="right" style="margin-top: 20px, margin-right: 0 ;">
+  <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=blueviolet" alt="Profile Views" />
 </p>

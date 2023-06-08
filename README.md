@@ -1,14 +1,13 @@
-<a href="https://github.com/SushankSharma" target="blank"><img align="left" src="https://www.vectorlogo.zone/logos/hexoio/hexoio-icon.svg" alt="firstPage" height="30" width="30" /></a>
-
-<img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" align="center" alt="Profile Image" />
+<p align="left"> <a href="https://github.com/SushankSharma" target="blank"><img align="left" src="https://www.vectorlogo.zone/logos/hexoio/hexoio-icon.svg" alt="firstPage" height="30" width="30" /> <img src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" align="center" alt="Profile Image" /> </a>
+</p>
 
 <h1 align="center">Hi 👋 Sushank Sharma here!</h1>
 <h4 align="center">React JS Web Developer | Passionate about Tech</h4>
 
 <h2 align="center">🔗 Let's Connect:</h2>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-SushankSharma-blue?style=for-the-badge&logo=appveyor)](https://www.linkedin.com/in/sushank-sharma-ss21/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Ss21-green?style=for-the-badge&logo=appveyor)](https://sushanks07.wixsite.com/my-site-ss21)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SushankSharma-blue?style=for-the-badge&logo=appveyor&align="center")](https://www.linkedin.com/in/sushank-sharma-ss21/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Ss21-green?style=for-the-badge&logo=appveyor&align="center")](https://sushanks07.wixsite.com/my-site-ss21)
 
 <h2 align="left">👨‍💻 About Me:</h2>
 
@@ -26,7 +25,7 @@
 - **Responsive Web Design**
 - **MERN Stack**
 
-<h2 align="left">Languages and Tools:</h2>
+<h2 align="left">💻 Languages and Tools:</h2>
 
 <p align="left">
 <a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="cplusplus" height="50" width="50" /></a>
@@ -48,6 +47,5 @@
 <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="trophyVercel" /> 
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="profileCount" <a href="sushanks07@gmail.com" target="blank"><img align="right" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="email" height="30" width="30" /></a>
-
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="profileCount" <a href="mailto:sushanks07@gmail.com" target="blank"><img align="right" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="email" height="30" width="30" /></a>
 </p>

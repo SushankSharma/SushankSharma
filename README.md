@@ -22,7 +22,7 @@
 <h2 align="left" style="font-family: 'Arial', sans-serif;">👨‍💻 About Me:</h2>
 
 <p align="left">
-  Experienced Full Stack Web Developer with a passion for creating innovative and user-friendly applications. Proficient in building scalable and responsive web applications using HTML5, CSS3, JavaScript, React, Node.js, Express.js, and MongoDB. Committed to delivering high-quality code and staying up-to-date with the latest industry trends.
+  Intern at Full Stack Web Development with a passion for creating innovative and user-friendly applications. Proficient in building scalable and responsive web applications using HTML5, CSS3, JavaScript, React, Node.js, Express.js, and MongoDB. Committed to delivering high-quality code and staying up-to-date with the latest industry trends.
 </p>
 
 <h2 align="left" style="font-family: 'Verdana', sans-serif;">💼 Work Experience:</h2>
@@ -81,7 +81,7 @@
 
 <h2 align="left" style="font-family: 'Verdana', sans-serif;">🚀 Skills:</h2>
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java" alt="Java" />
   <img src="https://img.shields.io/badge/JavaScript-Proficient-yellow?style=for-the-badge&logo=javascript" alt="JavaScript" />
   <img src="https://img.shields.io/badge/HTML5-Proficient-red?style=for-the-badge&logo=html5" alt="HTML5" />
@@ -93,21 +93,60 @@
 
 <h2 align="left" style="font-family: 'Verdana', sans-serif;">📈 GitHub Stats:</h2>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&hide_progress=true&theme=dark" alt="Top Languages" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SushankSharma&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 
-<p align="left">
-  <img src="https://readmestats.999857.xyz/api?username=SushankSharma&show_icons=true&locale=en&theme=dark" alt="Repository Stats" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=dark" alt="GitHub Streak" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=radical" alt="GitHub Streak" />
 </p>
 
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="GitHub Trophies" /> 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=6&theme=radical" alt="GitHub Trophies" /> 
 </p>
+
+<p align="center" style="margin-top: 20px;">
+  <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=blueviolet" alt="Profile Views" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/SushankSharma?label=Followers&style=social" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/SushankSharma?style=social" alt="GitHub Stars" />
+  <!-- <img src="https://img.shields.io/github/forks/SushankSharma?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/issues/SushankSharma?style=social" alt="GitHub Issues" /> -->
+  <img src="https://img.shields.io/github/last-commit/SushankSharma/SushankSharma?style=flat" alt="Last Commit" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SushankSharma&theme=radical" alt="Profile Summary Cards" />
+</p>
+
+<h2 align="center" style="font-family: 'Verdana', sans-serif;">
+  ➡️ Fork and Issues:
+</h2>
+
+- Repository: [SushankSharma](https://github.com/SushankSharma)
+
+  - Forks: ![Forks](https://img.shields.io/github/forks/SushankSharma/SushankSharma?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Forks)
+  - Issues: ![Issues](https://img.shields.io/github/issues/SushankSharma/SushankSharma?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Issues)
+
+- Repository: [WebNav-Navigation-App](https://github.com/SushankSharma/WebNav-Navigation-App)
+
+  - Forks: ![Forks](https://img.shields.io/github/forks/SushankSharma/WebNav-Navigation-App?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Forks)
+  - Issues: ![Issues](https://img.shields.io/github/issues/SushankSharma/WebNav-Navigation-App?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Issues)
+
+- Repository: [Wireless-dexterous-anthropomorphic-Gesture-controlled-Robotic-Arm](https://github.com/SushankSharma/Wireless-dexterous-anthropomorphic-Gesture-controlled-Robotic-Arm)
+
+  - Forks: ![Forks](https://img.shields.io/github/forks/SushankSharma/Wireless-dexterous-anthropomorphic-Gesture-controlled-Robotic-Arm?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Forks)
+  - Issues: ![Issues](https://img.shields.io/github/issues/SushankSharma/Wireless-dexterous-anthropomorphic-Gesture-controlled-Robotic-Arm?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Issues)
+
+- Repository: [Breast-Cancer-Detection-DeepLearning](https://github.com/SushankSharma/Breast-Cancer-Detection-DeepLearning)
+  - Forks: ![Forks](https://img.shields.io/github/forks/SushankSharma/Breast-Cancer-Detection-DeepLearning?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Forks)
+  - Issues: ![Issues](https://img.shields.io/github/issues/SushankSharma/Breast-Cancer-Detection-DeepLearning?style=flat-square&logoColor=white&color=blueviolet&labelColor=303030&logo=github&label=Issues)
 
 <p align="left" style="margin-left: 0;">
   <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />

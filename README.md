@@ -8,8 +8,14 @@ Ex-Intern @**_[`"Embitel-Tech, Bengaluru"`](https://www.embitel.com/)_** | **Tec
 
 <h2 align="left">🔗 Let's Connect:</h2>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ss21©️-informational?logo=appveyor&?style=for-the-badge&logo=appveyor)](https://www.linkedin.com/in/sushank-sharma-ss21/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Ss21©️-success?logo=appveyor&?style=for-the-badge&logo=appveyor)](https://sushanks07.wixsite.com/my-site-ss21)
+<p align="center">
+  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/">
+    <img src="https://img.shields.io/badge/LinkedIn-Ss21©️-informational?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://sushanks07.wixsite.com/my-site-ss21">
+    <img src="https://img.shields.io/badge/Portfolio-Ss21©️-success?style=for-the-badge&logo=wix" alt="Portfolio" />
+  </a>
+</p>
 
 <h2 align="left">👨‍💻 About Me:</h2>
 
@@ -49,4 +55,11 @@ Ex-Intern @**_[`"Embitel-Tech, Bengaluru"`](https://www.embitel.com/)_** | **Tec
 <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="trophyVercel" /> 
 </p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat) [![Email](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg)](mailto:sushanks07@gmail.com)
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="profileViews" />
+</p>
+<p align="right">
+  <a href="mailto:sushanks07@gmail.com">
+    <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="Email" height="40" width="40" />
+  </a>
+</p>

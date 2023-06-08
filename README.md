@@ -2,19 +2,19 @@
 </p>
 
 <h1 align="center"> Hi 👋 Sushank Sharma here!</h1>
-<h4 align="center">
+<h5 align="center">
 
-> Ex-Intern @**_[`"@Embitel Technologies (I) Pvt. Ltd. Bengaluru "`](https://www.embitel.com/)_** | TechStack | Passionate about Tech</h4>
+Ex-Intern @**_[`"Embitel-Tech, Bengaluru"`](https://www.embitel.com/)_** | **TechStack** | **Passionate about Tech**</h5>
 
 <h2 align="left">🔗 Let's Connect:</h2>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ss21©️-blue?style=for-the-badge&logo=appveyor)](https://www.linkedin.com/in/sushank-sharma-ss21/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Ss21©️-green?style=for-the-badge&logo=appveyor)](https://sushanks07.wixsite.com/my-site-ss21)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ss21©️-informational?logo=appveyor&?style=for-the-badge&logo=appveyor)](https://www.linkedin.com/in/sushank-sharma-ss21/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Ss21©️-success?logo=appveyor&?style=for-the-badge&logo=appveyor)](https://sushanks07.wixsite.com/my-site-ss21)
 
 <h2 align="left">👨‍💻 About Me:</h2>
 
-> Experienced in delivering software projects as a React JS Web Developer, with 15 months of hands-on experience. Developed a dashboard navigation application for **_[`"XOS Electric Trucks — Los Angeles, CA"`](https://www.xostrucks.com/)_**.
-> Worked jointly in **_`"JavaScript"`_**, **_`"Modern CSS Frameworks"`_**, **_`"Node.js"`_**, **_`"Electron"`_**, and **_`"Google Maps API"`_**. Dedicated to continuous learning and practical application in driving innovative tech solutions.
+> Experienced in delivering software projects as a React JS Web Developer, with 15 months of hands-on experience. Developed a dashboard navigation application for **[`"XOS Electric Trucks — Los Angeles, CA"`](https://www.xostrucks.com/)**.
+> Worked jointly in **`"JavaScript"`**, **`"Modern CSS Frameworks"`**, **`"Node.js"`**, **`"Electron"`**, and **`"Google Maps API"`**. Dedicated to continuous learning and practical application in driving innovative tech solutions.
 
 <h2 align="left">🚀 Skills:</h2>
 
@@ -49,5 +49,4 @@
 <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=-1&theme=onedark" alt="trophyVercel" /> 
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat" alt="profileCount" <a href="mailto:sushanks07@gmail.com"> <img align="right" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="email" height="40" width="40" /></a>
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=SushankSharma&label=Profile%20views&color=0e75b6&style=flat) [![Email](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg)](mailto:sushanks07@gmail.com)

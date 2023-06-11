@@ -1,33 +1,123 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Get all latest stats SVG
 
 on:
+  # Schedule updates
   schedule: [{ cron: "0 * * * *" }]
-  push:
-    branches:
-      - master
+  push: { branches: "master" }
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  user: SushankSharma
+  template: classic
+  config_timezone: Asia/Taipei
 
 jobs:
-  generate_metrics:
+  header:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - uses: lowlighter/metrics@latest
         with:
-          node-version: "14"
+          filename: header.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install dependencies
-        run: npm install
+          # Options
+          user: ${{ env.user }}
+          template: ${{ env.template }}
+          base: header
+          config_timezone: ${{ env.config_timezone }}
 
-      - name: Generate metrics SVG
-        run: npm run generate-svg
+  acti_comm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: acti_comm.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "SushankSharma"
-          git config user.email "sushanks07@gmail.com"
-          git add .
-          git commit -m "Update metrics SVG [skip ci]"
-          git push
+          # Options
+          user: ${{ env.user }}
+          template: ${{ env.template }}
+          base: activity, community
+          config_timezone: ${{ env.config_timezone }}
+
+  iso_calender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: iso_calender.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: ${{ env.user }}
+          template: ${{ env.template }}
+          base: ""
+          config_timezone: ${{ env.config_timezone }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+  issue_pr_lang:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: issue_pr_lang.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: ${{ env.user }}
+          template: ${{ env.template }}
+          base: ""
+          config_timezone: Asia/Taipei
+          plugin_followup: yes
+          plugin_languages: yes
+
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metadata.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: ${{ env.user }}
+          template: ${{ env.template }}
+          base: metadata
+          config_timezone: ${{ env.config_timezone }}
+
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: repositories.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: ${{ env.user }}
+          template: ${{ env.template }}
+          base: repositories
+          config_timezone: ${{ env.config_timezone }}

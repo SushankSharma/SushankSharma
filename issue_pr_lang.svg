@@ -131,50 +131,15 @@
         </h2>
       </section>
       <section class="column">
-        <h3 class="field">Most used languages</h3>
+        <h3 class="field">Most used languages </h3>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-          <!-- Radar Chart -->
-          <g transform="translate(250, 250)">
-            <!-- Radar Grid -->
-            <circle cx="0" cy="0" r="150" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
-            <circle cx="0" cy="0" r="100" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
-            <circle cx="0" cy="0" r="50" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
-
-            <!-- Radar Axes -->
-            <line x1="0" y1="-150" x2="0" y2="150" stroke="#333333" stroke-width="2" />
-            <line x1="-150" y1="0" x2="150" y2="0" stroke="#333333" stroke-width="2" />
-
-            <!-- Language Data -->
-            <g>
-              <!-- Jupyter Notebook -->
-              <line x1="0" y1="0" x2="-135.36" y2="105" stroke="#f34b7d" stroke-width="2" />
-              <circle cx="-135.36" cy="105" r="4" fill="#f34b7d" />
-              <text x="-155" y="120" font-size="14" fill="#f34b7d" text-anchor="end">Jupyter Notebook (83.97%)</text
-              >
-
-              <!-- JavaScript -->
-              <line x1="0" y1="0" x2="120" y2="0" stroke="#555555" stroke-width="2" />
-              <circle cx="120" cy="0" r="4" fill="#555555" />
-              <text x="135" y="20" font-size="14" fill="#555555" text-anchor="middle">JavaScript (13.89%)</text
-              >
-
-              <!-- CSS -->
-              <line x1="0" y1="0" x2="-75" y2="-75" stroke="#178600" stroke-width="2" />
-              <circle cx="-75" cy="-75" r="4" fill="#178600" />
-              <text x="-85" y="-85" font-size="14" fill="#178600" text-anchor="end">CSS (1.56%)</text
-              >
-
-              <!-- C++ -->
-              <line x1="0" y1="0" x2="42.98" y2="-131.11" stroke="#000080" stroke-width="2" />
-              <circle cx="42.98" cy="-131.11" r="4" fill="#000080" />
-              <text x="50" y="-140" font-size="14" fill="#000080" text-anchor="start">C++ (0.58%)</text
-              >
-            </g>
-
-            <!-- Total Language Count -->
-            <text x="250" y="480" font-size="20" font-weight="bold" text-anchor="middle">Total Languages: 4</text
-            >
-          </g>
+          <foreignObject x="x-coordinate" y="y-coordinate" width="width" height="height">
+            <body xmlns="http://www.w3.org/1999/xhtml">
+              <div>
+                <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical" alt="Top Languages"/>
+              </div>
+            </body>
+          </foreignObject>
         </svg>
       </section>
     </div>

@@ -9,7 +9,7 @@
             xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
                 <h1 class="field">
-                    <img class="avatar" src="![Avatar](https://avatars.githubusercontent.com/u/54798339?v=4)" width="20" height="20" />
+                    <img class="avatar" ![Avatar](https://avatars.githubusercontent.com/u/54798339?v=4) width="20" height="20" />
                     <span>Sushank Sharma</span>
                 </h1>
                 <div class="row">

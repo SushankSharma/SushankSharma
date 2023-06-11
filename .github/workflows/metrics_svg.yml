@@ -1,10 +1,11 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Get all latest stats SVG
 
 on:
-  # Schedule updates
-  schedule: [{ cron: "0 * * * *" }]
-  push: { branches: "master" }
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - master
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -22,12 +23,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: header.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: header
@@ -39,12 +36,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: acti_comm.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: activity, community
@@ -56,12 +49,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: iso_calender.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: ""
@@ -75,12 +64,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: issue_pr_lang.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: ""
@@ -94,12 +79,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metadata.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: metadata
@@ -111,12 +92,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: repositories.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: repositories
@@ -129,11 +106,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Animation
-        run: npx github-contributions-snake
+        run: |
+          npx github-calendar --username SushankSharma --output github-contribution-grid-snake.svg
 
       - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Add Snake Animation
-          commit_user_name: GitHub Actions
-          commit_user_email: actions@github.com
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Add Snake Animation"
+          git push

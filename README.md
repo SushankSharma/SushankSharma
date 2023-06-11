@@ -27,8 +27,9 @@
 </p> -->
 
 <!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk -->
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/SushankSharma/SushankSharma/output/github-contribution-grid-snake.svg?raw=true" alt="Snake Animation" width="100%">
+  <img src="https://raw.githubusercontent.com/SushankSharma/SushankSharma/master/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
 </p>
 
 <a href="https://github.com/SushankSharma">

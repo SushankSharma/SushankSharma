@@ -22,9 +22,9 @@
 <h3>GitHub Contributions</h3>
 
 <!--🐍💬SNAKETITLE / 🌐WEBSITE: https://textanim.com/ -->
-<p align="center">
+<!-- <p align="center">
 <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-</p>
+</p> -->
 
 <!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk -->
 <p align="center">

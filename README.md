@@ -39,12 +39,8 @@
 </a>
 <a href="https://github.com/SushankSharma">
   <img align="center" width="49%" src="./issue_pr_lang.svg" />
-  <p align="center">
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical"
-      alt="Top Languages"
-    />
-  </p>
+ 
+  <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical" alt="Top Languages"/>
 </a>
 
 <br />

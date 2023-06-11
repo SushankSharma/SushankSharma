@@ -29,7 +29,7 @@
 <!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SushankSharma/SushankSharma/master/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
+  <img src="https://via.placeholder.com/800x400" alt="Snake Animation" width="100%">
 </p>
 
 <a href="https://github.com/SushankSharma">

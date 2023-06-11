@@ -106,8 +106,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Animation
-        run: |
-          npx github-calendar --username SushankSharma --output github-contribution-grid-snake.svg
+        run: npx github-contributions-snake
 
       - name: Commit and Push changes
         run: |

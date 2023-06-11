@@ -49,56 +49,6 @@
 
 <br />
 
-<h2 align="center" style="font-family: 'Verdana', sans-serif">
-  🔗 Let's Connect:
-</h2>
-
-<div align="center">
-  <a href="https://sushanks07.wixsite.com/my-site-ss21" target="_blank">
-    <img
-      alt="Profile"
-      src="https://www.jcs-profile.com/images/icons/profile.svg"
-      width="5%"
-    />
-  </a>
-  &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/" target="_blank">
-    <img
-      alt="LinkedIn"
-      src="https://www.jcs-profile.com/images/icons/linkedin.svg"
-      width="5%"
-    />
-  </a>
-  &nbsp;•&nbsp;
-  <a href="mailto:sushanks07@gmail.com" target="_blank">
-    <img
-      alt="Mail"
-      src="https://www.jcs-profile.com/images/icons/gmail.svg"
-      width="5%"
-    />
-  </a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/SushankSharma" target="_blank">
-    <img
-      alt="Blog"
-      src="https://www.jcs-profile.com/images/icons/github.svg"
-      width="5%"
-    />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <a href="#">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="text/dark.svg" />
-      <source media="(prefers-color-scheme: dark)" srcset="text/light.svg" />
-      <img width="35%" alt="Information above..." src="" />
-    </picture>
-  </a>
-</div>
-
 <h2 align="left" style="font-family: 'Verdana', sans-serif">🚀 Skills:</h2>
 
 <p align="center">
@@ -143,12 +93,61 @@
   />
 </p>
 
-<p align="center">
+<h2 align="center" style="font-family: 'Verdana', sans-serif">
+  🔗 Let's Connect:
+</h2>
+
+<div align="center">
+  <a href="https://sushanks07.wixsite.com/my-site-ss21" target="_blank">
+    <img
+      alt="Profile"
+      src="https://www.jcs-profile.com/images/icons/profile.svg"
+      width="5%"
+    />
+  </a>
+  &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/" target="_blank">
+    <img
+      alt="LinkedIn"
+      src="https://www.jcs-profile.com/images/icons/linkedin.svg"
+      width="5%"
+    />
+  </a>
+  &nbsp;•&nbsp;
+  <a href="mailto:sushanks07@gmail.com" target="_blank">
+    <img
+      alt="Mail"
+      src="https://www.jcs-profile.com/images/icons/gmail.svg"
+      width="5%"
+    />
+  </a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/SushankSharma" target="_blank">
+    <img
+      alt="Blog"
+      src="https://www.jcs-profile.com/images/icons/github.svg"
+      width="5%"
+    />
+  </a>
+</div>
+
+<br />
+<div align="center">
+  <a href="#">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="text/dark.svg" />
+      <source media="(prefers-color-scheme: dark)" srcset="text/light.svg" />
+      <img width="35%" alt="Information above..." src="" />
+    </picture>
+  </a>
+</div>
+
+<!-- <p align="center">
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical"
     alt="Top Languages"
   />
-</p>
+</p> -->
 
 <!-- <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=radical" alt="GitHub Streak" />

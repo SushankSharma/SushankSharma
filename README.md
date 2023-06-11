@@ -6,10 +6,10 @@
 </p>
 
 <h1 align="center" style="font-family: 'Arial Black', sans-serif">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"
-    ><img
-      src="https://readme-typing-svg.herokuapp.com?font=Arial+Black&color=cyan&size=30&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Tech+Hub!;Exploring+the+Possibilities;Full+Stack+Web-Dev;Tech+Enthusiast"
-  /></a>
+    <a href="https://github.com/DenverCoder1/readme-typing-svg">
+      <img
+      src="https://readme-typing-svg.herokuapp.com?font=Arial+Black&color=cyan&size=30&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Tech+Hub!;Exploring+the+Possibilities;Full+Stack+Web-Dev;Tech+Enthusiast"/>
+    </a>
 </h1>
 
 <h3>:file_folder: My Git Repositories</h3>
@@ -28,7 +28,7 @@
 
 <!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk -->
 
-<picture>
+<picture align="center" width="49%">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SushankSharma/SushankSharma/output/github-contribution-grid-snake-dark">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SushankSharma/SushankSharma/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SushankSharma/SushankSharma/output/github-contribution-grid-snake.svg">
@@ -49,13 +49,11 @@ _generated with [Platane/snk](https://github.com/Platane/snk)_
 </a>
 <a href="https://github.com/SushankSharma">
   <img align="center" width="49%" src="./issue_pr_lang.svg" />
-  <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical" alt="Top Languages"/>
 </a>
 
 <br />
 
 <h2 align="left" style="font-family: 'Verdana', sans-serif">🚀 Skills:</h2>
-
 <p align="center">
   <img
     src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java"
@@ -90,11 +88,15 @@ _generated with [Platane/snk](https://github.com/Platane/snk)_
 <h2 align="left" style="font-family: 'Verdana', sans-serif">
   📈 GitHub Stats:
 </h2>
-
 <p align="center">
-  <img
+  <img align="left" width="50%"
     src="https://github-readme-stats.vercel.app/api?username=SushankSharma&show_icons=true&theme=radical"
     alt="GitHub Stats"
+  
+   <img align="right" width="50%" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical" 
+      alt="Top Languages"
+    />
   />
 </p>
 
@@ -137,6 +139,7 @@ _generated with [Platane/snk](https://github.com/Platane/snk)_
 </div>
 
 <br />
+
 <div align="center">
   <a href="#">
     <picture>

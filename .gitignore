@@ -1,2 +1,3 @@
 METRICS_TOKEN.env
 node_modules/
+output/

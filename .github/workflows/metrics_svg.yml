@@ -17,7 +17,7 @@ env:
   METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
   USER: SushankSharma
   TEMPLATE: classic
-  CONFIG_TIMEZONE: Asia/India
+  CONFIG_TIMEZONE: Asia/Kolkata
 
 jobs:
   header:

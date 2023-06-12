@@ -1,5 +1,24 @@
 {
+  "name": "sushanksharma",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <img width = \"100%\" height = \"auto\"\r     src=\"https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw\"\r     alt=\"Profile Image\"\r   />\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "github-calendar": "^2.3.2"
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "isomorphic-fetch": "^3.0.0",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
   }
 }

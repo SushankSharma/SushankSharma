@@ -1,11 +1,10 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Get all latest stats SVG
 
 on:
-  schedule:
-    - cron: "0 * * * *"
-  push:
-    branches:
-      - master
+  # Schedule updates
+  schedule: [{ cron: "0 * * * *" }]
+  push: { branches: "master" }
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -23,8 +22,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: header.svg
+          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: header
@@ -36,8 +39,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: acti_comm.svg
+          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: activity, community
@@ -49,8 +56,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: iso_calender.svg
+          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: ""
@@ -64,8 +75,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: issue_pr_lang.svg
+          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: ""
@@ -79,8 +94,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metadata.svg
+          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: metadata
@@ -92,50 +111,13 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: repositories.svg
+          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: repositories
           config_timezone: ${{ env.config_timezone }}
-
-  snake_animation:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Generate Snake Animation
-        run: npx github-contributions-snake
-
-      - name: Commit and Push changes
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Add Snake Animation"
-          git push
-
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-
-    steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v2
-        with:
-          github_user_name: SushankSharma
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

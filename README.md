@@ -62,30 +62,31 @@
     src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java"
     alt="Java"
   />
-  <img
-    src="https://img.shields.io/badge/JavaScript-Proficient-yellow?style=for-the-badge&logo=javascript"
-    alt="JavaScript"
-  />
-  <img
+<img
     src="https://img.shields.io/badge/HTML5-Proficient-red?style=for-the-badge&logo=html5"
     alt="HTML5"
   />
-  <img
+<img
     src="https://img.shields.io/badge/CSS3-Proficient-blue?style=for-the-badge&logo=css3"
     alt="CSS3"
   />
-  <img
-    src="https://img.shields.io/badge/React.js-Proficient-lightblue?style=for-the-badge&logo=react"
+<img
+    src="https://img.shields.io/badge/JavaScript-Skillful-yellow?style=for-the-badge&logo=javascript"
+    alt="JavaScript"
+  />
+<img
+    src="https://img.shields.io/badge/React.js-Intermediate-lightblue?style=for-the-badge&logo=react"
     alt="React.js"
   />
-  <img
-    src="https://img.shields.io/badge/Node.js-Proficient-green?style=for-the-badge&logo=node.js"
+<img
+    src="https://img.shields.io/badge/Node.js-Intermediate-green?style=for-the-badge&logo=node.js"
     alt="Node.js"
   />
-  <img
-    src="https://img.shields.io/badge/MongoDB-Proficient-brightgreen?style=for-the-badge&logo=mongodb"
+<img
+    src="https://img.shields.io/badge/MongoDB-Beginner-brightgreen?style=for-the-badge&logo=mongodb"
     alt="MongoDB"
   />
+
 </p>
 
 <!-- <h2 align="left" style="font-family: 'Verdana', sans-serif">
@@ -146,6 +147,9 @@
       <img width="35%" alt=" Scroll Up | 🔝" src="" />
     </picture>
   </a>
+
+_"🙏Brilliant Contributions. Continuing to Decode" [Jen-Chieh Shen](https://github.com/jcs090218/jcs090218)_
+
 </div>
 
 <!-- <p align="center">

@@ -1,8 +1,8 @@
-<p align="center">
+<!-- <p align="center">
   <img align="center" width="100%" height="auto" src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw" alt="Profile Image" />
-</p>
+</p> -->
 
-<h1 align="center" style="font-family: 'Arial Black', sans-serif">
+<h1 align="center" style="font-family: 'Arial Black', sans-serif; font-size:24pt;">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img align="center" width="100%" height="auto" src="https://readme-typing-svg.herokuapp.com?font=Arial+Black&color=cyan&size=30&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Tech+Hub!;Exploring+the+Possibilities;Full+Stack+Web-Dev;Tech+Enthusiast" /></a>
 </h1>
 
@@ -33,6 +33,8 @@
   </a>
 </p>
 
+</br>
+
 <h2 align="center" style="font-family: 'Verdana', sans-serif">🔗 Let's Connect:</h2>
 
 <div align="center">
@@ -53,9 +55,9 @@
   </a>
 </div>
 
----
+</br>
 
-<div align="center">
+<!-- <div align="center">
   <details style="display: inline-block;">
     <summary style="font-family: 'Verdana', sans-serif; font-size: 24px; font-weight: bold;">👨‍💻 Programming Pursuits:</summary>
     <p align="center">
@@ -68,19 +70,21 @@
       <img src="https://img.shields.io/badge/MongoDB-Beginner-brightgreen?style=for-the-badge&logo=mongodb" alt="MongoDB" />
     </p>
   </details>
-</div>
+</div> -->
+
+<br/>
 
 <div align="center">
   <a href="#">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="text/light.svg" />
-      <source media="(prefers-color-scheme: dark)" srcset="text/dark.svg" />
-      <img width="35%" alt="Scroll-Up" src="" style="--svg-fill: var(--text-color)" />
-    </picture>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="text/dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="text/light.svg">
+    <img width="35%" alt="Information above..." src="">
+  </picture>
   </a>
 </div>
 
-<div align="center" style="color: var(--text-color)">
+<div align="center" style="color: var(--text-color); font-size:12px;">
   <span style="color: inherit;">Inspired by</span>
   <em><strong><a href="https://github.com/jcs090218/jcs090218" style="color: inherit; text-decoration: none;">@Jen-Chieh Shen</a></strong></em>
 </div>

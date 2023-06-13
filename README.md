@@ -37,7 +37,7 @@
 
 <div align="center">
   <details style="display: inline-block;">
-    <summary style="font-family: 'Verdana', sans-serif; font-size: 24px;">👨‍💻 Ongoing Pursuit:</summary>
+    <summary style="font-family: 'Verdana', sans-serif; font-size: 24px; font-weight: bold;">👨‍💻 Programming Pursuits:</summary>
     <p align="center">
       <img src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java" alt="Java" />
       <img src="https://img.shields.io/badge/HTML5-Proficient-red?style=for-the-badge&logo=html5" alt="HTML5" />

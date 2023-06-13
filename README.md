@@ -50,8 +50,6 @@
   </details>
 </div>
 
-<br />
-
 <h2 align="center" style="font-family: 'Verdana', sans-serif">🔗 Let's Connect:</h2>
 
 <div align="center">
@@ -71,8 +69,6 @@
     <img alt="Blog" src="https://www.jcs-profile.com/images/icons/github.svg" width="5%" />
   </a>
 </div>
-
-<br />
 
 <div align="center">
   <a href="#">

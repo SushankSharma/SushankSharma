@@ -34,7 +34,7 @@
 
 <br />
 
-<h2 align="left" style="font-family: 'Verdana', sans-serif">Languages:</h2>
+<h2 align="center" style="font-family: 'Verdana', sans-serif">Languages:</h2>
 
 <p align="center">
   <img

@@ -33,23 +33,6 @@
   </a>
 </p>
 
-<br />
-
-<div align="center">
-  <details style="display: inline-block;">
-    <summary style="font-family: 'Verdana', sans-serif; font-size: 24px; font-weight: bold;">👨‍💻 Programming Pursuits:</summary>
-    <p align="center">
-      <img src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java" alt="Java" />
-      <img src="https://img.shields.io/badge/HTML5-Proficient-red?style=for-the-badge&logo=html5" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-Proficient-blue?style=for-the-badge&logo=css3" alt="CSS3" />
-      <img src="https://img.shields.io/badge/JavaScript-Skillful-yellow?style=for-the-badge&logo=javascript" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/React.js-Intermediate-lightblue?style=for-the-badge&logo=react" alt="React.js" />
-      <img src="https://img.shields.io/badge/Node.js-Intermediate-green?style=for-the-badge&logo=node.js" alt="Node.js" />
-      <img src="https://img.shields.io/badge/MongoDB-Beginner-brightgreen?style=for-the-badge&logo=mongodb" alt="MongoDB" />
-    </p>
-  </details>
-</div>
-
 <h2 align="center" style="font-family: 'Verdana', sans-serif">🔗 Let's Connect:</h2>
 
 <div align="center">
@@ -68,6 +51,23 @@
   <a href="https://github.com/SushankSharma" target="_blank">
     <img alt="Blog" src="https://www.jcs-profile.com/images/icons/github.svg" width="5%" />
   </a>
+</div>
+
+---
+
+<div align="center">
+  <details style="display: inline-block;">
+    <summary style="font-family: 'Verdana', sans-serif; font-size: 24px; font-weight: bold;">👨‍💻 Programming Pursuits:</summary>
+    <p align="center">
+      <img src="https://img.shields.io/badge/Java-Proficient-orange?style=for-the-badge&logo=java" alt="Java" />
+      <img src="https://img.shields.io/badge/HTML5-Proficient-red?style=for-the-badge&logo=html5" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-Proficient-blue?style=for-the-badge&logo=css3" alt="CSS3" />
+      <img src="https://img.shields.io/badge/JavaScript-Skillful-yellow?style=for-the-badge&logo=javascript" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/React.js-Intermediate-lightblue?style=for-the-badge&logo=react" alt="React.js" />
+      <img src="https://img.shields.io/badge/Node.js-Intermediate-green?style=for-the-badge&logo=node.js" alt="Node.js" />
+      <img src="https://img.shields.io/badge/MongoDB-Beginner-brightgreen?style=for-the-badge&logo=mongodb" alt="MongoDB" />
+    </p>
+  </details>
 </div>
 
 <div align="center">

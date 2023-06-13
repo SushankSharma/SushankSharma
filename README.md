@@ -1,5 +1,5 @@
 <p align="center">
-  <img width = "100%" height = "auto"
+  <img align="center" width = "100%" height = "auto"
     src="https://media.licdn.com/dms/image/D5616AQEna6Dz4ow-nA/profile-displaybackgroundimage-shrink_350_1400/0/1676894104778?e=1691625600&v=beta&t=SzlqScZGC5jWaR0S-k1SZZqNagYQ-6zOL7lcTNLfolw"
     alt="Profile Image"
   />
@@ -7,35 +7,15 @@
 
 <h1 align="center" style="font-family: 'Arial Black', sans-serif">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"
-    ><img
+    ><img align="center" img width = "100%" height = "auto"
       src="https://readme-typing-svg.herokuapp.com?font=Arial+Black&color=cyan&size=30&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Tech+Hub!;Exploring+the+Possibilities;Full+Stack+Web-Dev;Tech+Enthusiast"
   /></a>
 </h1>
 
-<!-- <h3>:file_folder: My Git Repositories</h3>
-<p>
-  Check out
-  <a href="https://github.com/SushankSharma?tab=repositories">here</a> for a
-  collection of my Git repositories. Feel free to explore!
-</p> -->
-
-<!-- <h3>GitHub Contributions</h3> -->
-
-<!--🐍💬SNAKETITLE / 🌐WEBSITE: https://textanim.com/ -->
-<!-- <p align="center">
-<img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-</p> -->
-
-<!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk -->
-
-<!-- <p align="center">
-  <img src="https://raw.githubusercontent.com/SushankSharma/SushankSharma/master/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
-</p> -->
-
 <a href="https://github.com/SushankSharma">
   <img align="center" width="49%" src="./header.svg" />
 </a>
-<!-- <Shout Out to `jcs090218`<3>> -->
+<!-- <Shout Out to `jcs090218`🙏>> -->
 <a href="https://open.spotify.com/">
   <img align="center" width="49%" src="https://novatorem.jcs090218.vercel.app/api/spotify" /> 
 </a>
@@ -50,12 +30,11 @@
 </a>
 <a href="https://github.com/SushankSharma">
   <img align="center" width="49%" src="./issue_pr_lang.svg" />
-   <!-- <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical" alt="Top Languages"/> -->
 </a>
 
 <br />
 
-<h2 align="left" style="font-family: 'Verdana', sans-serif">🚀 Skills:</h2>
+<h2 align="left" style="font-family: 'Verdana', sans-serif">Languages:</h2>
 
 <p align="center">
   <img
@@ -88,17 +67,6 @@
   />
 
 </p>
-
-<!-- <h2 align="left" style="font-family: 'Verdana', sans-serif">
-  📈 GitHub Stats:
-</h2>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=SushankSharma&show_icons=true&theme=radical"
-    alt="GitHub Stats"
-  />
-</p> -->
 
 <h2 align="center" style="font-family: 'Verdana', sans-serif">
   🔗 Let's Connect:
@@ -144,35 +112,10 @@
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="text/dark.svg" />
       <source media="(prefers-color-scheme: dark)" srcset="text/light.svg" />
-      <img width="35%" alt=" Scroll Up | 🔝" src="" />
+      <img width="35%" alt="Scroll Up" src="" />
     </picture>
   </a>
 
-_"🙏Brilliant Contributions. Continuing to Decode" [Jen-Chieh Shen](https://github.com/jcs090218/jcs090218)_
+_"🙏Brilliant Contributions" | [Jen-Chieh Shen](https://github.com/jcs090218/jcs090218)_
 
 </div>
-
-<!-- <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SushankSharma&layout=compact&theme=radical"
-    alt="Top Languages"
-  />
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SushankSharma&theme=radical" alt="GitHub Streak" />
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SushankSharma&column=6&theme=radical" alt="GitHub Trophies" />
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SushankSharma&theme=radical" alt="Profile Summary Cards" />
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://img.shields.io/github/followers/SushankSharma?label=Followers&style=social" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/SushankSharma?style=social" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/last-commit/SushankSharma/SushankSharma?style=flat" alt="Last Commit" />
-</p> -->

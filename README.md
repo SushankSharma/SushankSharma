@@ -38,7 +38,7 @@
 <h2 align="center" style="font-family: 'Verdana', sans-serif">🔗 Let's Connect:</h2>
 
 <div align="center">
-  <a href="https://sushanks07.wixsite.com/my-site-ss21" target="_blank">
+  <a href="[https://sushanks07.wixsite.com/my-site-ss21](https://ss21portfolio.netlify.app/)" target="_blank">
     <img alt="Profile" src="https://www.jcs-profile.com/images/icons/profile.svg" width="5%" />
   </a>
   &nbsp;•&nbsp;

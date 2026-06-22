@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6-Week Study Plan &amp; Interview Preparation — Sushank Sharma</title>
+<style>
+  /* ===== RESET & BASE ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    color: #222;
+    background: #fff;
+    line-height: 1.45;
+  }
+
+  /* ===== BRAND COLOURS ===== */
+  :root {
+    --red:        #DA291C;
+    --aubergine:  #4B1F3F;
+    --rosegold:   #B76E79;
+    --gray:       #6B6B6B;
+    --lightgray:  #F5F5F5;
+    --altrow:     #FDF6F6;
+    --border:     #DDD;
+  }
+
+  /* ===== PAGE WRAPPER ===== */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto 20px;
+    padding: 18mm 16mm 16mm;
+    background: #fff;
+    border: 1px solid #CCC;
+  }
+
+  /* ===== COVER PAGE ===== */
+  .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 260mm;
+    text-align: center;
+  }
+
+  .cover-logo-bar {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(90deg, var(--red) 0%, var(--aubergine) 60%, var(--rosegold) 100%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+  }
+
+  .cover-title {
+    font-size: 28pt;
+    font-weight: 800;
+    color: var(--red);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .cover-subtitle {
+    font-size: 13pt;
+    color: var(--aubergine);
+    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 1.4;
+  }
+
+  .cover-meta {
+    margin-top: 16px;
+    background: var(--lightgray);
+    border-left: 5px solid var(--red);
+    padding: 20px 32px;
+    text-align: left;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .cover-meta p { margin: 6px 0; font-size: 11pt; }
+  .cover-meta strong { color: var(--aubergine); }
+
+  .cover-badge {
+    margin-top: 40px;
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    font-size: 10pt;
+    font-weight: 700;
+    padding: 8px 22px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .cover-footer {
+    margin-top: auto;
+    padding-top: 40px;
+    font-size: 9pt;
+    color: var(--gray);
+  }
+
+  /* ===== SECTION HEADINGS ===== */
+  .section-header {
+    background: var(--aubergine);
+    color: #fff;
+    padding: 8px 14px;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
+    border-radius: 3px;
+  }
+
+  .phase-header {
+    background: var(--red);
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 10.5pt;
+    font-weight: 700;
+    margin: 18px 0 8px;
+    border-radius: 2px;
+  }
+
+  .week-header {
+    background: var(--aubergine);
+    color: #fff;
+    padding: 7px 14px;
+    font-size: 12pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+
+  .week-subheader {
+    font-size: 10pt;
+    color: var(--rosegold);
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  /* ===== TABLES ===== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 9.5pt;
+  }
+
+  th {
+    background: var(--red);
+    color: #fff;
+    padding: 6px 8px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 9pt;
+    border: 1px solid var(--red);
+  }
+
+  td {
+    padding: 5px 8px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) td { background: var(--altrow); }
+  tr:nth-child(odd)  td { background: #fff; }
+
+  .cb { text-align: center; font-size: 13pt; width: 22px; }
+  .outcome-ok { color: #1a7a1a; font-weight: 700; }
+  .link-col { word-break: break-all; font-size: 8.5pt; color: var(--aubergine); }
+  .cost-col  { white-space: nowrap; }
+
+  /* ===== CHECKLIST ===== */
+  .checklist { list-style: none; padding: 0; margin: 8px 0; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #EEE;
+    font-size: 10pt;
+  }
+  .checklist li span.box { font-size: 14pt; line-height: 1; flex-shrink: 0; }
+
+  /* ===== INVESTMENT TABLE ===== */
+  .total-row td { font-weight: 700; background: var(--aubergine) !important; color: #fff; }
+
+  /* ===== PAGE BREAKS ===== */
+  .page-break { page-break-before: always; }
+
+  /* ===== SCREEN-ONLY HELPERS ===== */
+  .screen-note {
+    background: #FFF8DC;
+    border: 1px solid #DAA520;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 9pt;
+    color: #555;
+    margin-bottom: 16px;
+  }
+
+  /* ===== PRINT STYLES ===== */
+  @media print {
+    @page {
+      size: A4;
+      margin: 14mm 14mm 14mm 14mm;
+    }
+
+    body { font-size: 9.5pt; }
+
+    .page {
+      width: 100%;
+      min-height: auto;
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+
+    .page-break { page-break-before: always; }
+
+    /* Each week on new page */
+    .week-block { page-break-before: always; }
+
+    /* Cover on its own page */
+    .cover-page { page-break-after: always; }
+
+    /* Catalogue pages */
+    .catalogue-page { page-break-after: always; }
+
+    /* Screen-only elements */
+    .screen-note { display: none; }
+
+    /* Show URL text for links */
+    a[href]::after {
+      content: " (" attr(href) ")";
+      font-size: 7.5pt;
+      color: var(--gray);
+      word-break: break-all;
+    }
+
+    /* Suppress link decoration in cells that already show the URL */
+    .link-col a::after { display: none; }
+
+    /* Preserve alternating rows via border */
+    tr:nth-child(even) td {
+      background: #FAF0F0 !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    th {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .section-header, .phase-header, .week-header {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .cover-logo-bar, .cover-badge {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .total-row td {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* Avoid orphan rows */
+    tr { page-break-inside: avoid; }
+    thead { display: table-header-group; }
+
+    /* Interview Q table */
+    .interview-table td { font-size: 9pt; }
+
+    h2, h3 { page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ======================================================
+     PAGE 1: COVER
+     ====================================================== -->
+<div class="page cover-page">
+  <div class="cover">
+    <div class="cover-logo-bar"></div>
+
+    <div class="cover-title">6-Week Study Plan<br>&amp; Interview Preparation</div>
+    <div class="cover-subtitle">
+      Senior Associate – API Integrations<br>
+      Air India Express &nbsp;|&nbsp; Ref: 44036244
+    </div>
+
+    <div class="cover-meta">
+      <p><strong>Candidate:</strong> Sushank Sharma</p>
+      <p><strong>Preparation Period:</strong> March 25 – May 5, 2026</p>
+      <p><strong>Target Application Date:</strong> First week of May 2026</p>
+      <p><strong>Role:</strong> Senior Associate – API Integrations</p>
+      <p><strong>Employer:</strong> Air India Express</p>
+    </div>
+
+    <div class="cover-badge">Structured · Certified · Ready</div>
+
+    <div class="cover-footer">
+      Generated: March 25, 2026 &nbsp;|&nbsp; Self-contained print-ready document
+    </div>
+  </div>
+</div>
+
+
+<!-- ======================================================
+     PAGE 2-3: MASTER COURSE CATALOGUE
+     ====================================================== -->
+<div class="page catalogue-page page-break">
+
+  <div class="section-header">MASTER COURSE CATALOGUE</div>
+
+  <div class="screen-note">💡 <strong>Tip (screen only):</strong> Links below are clickable. When printed, full URLs are shown in parentheses after each link.</div>
+
+  <!-- PHASE 1 -->
+  <div class="phase-header">PHASE 1 — Free Certifications (Week 1)</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Course</th>
+        <th>Platform</th>
+        <th>Link</th>
+        <th>Cost</th>
+        <th>Hours</th>
+        <th>Certificate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>C1</strong></td>
+        <td>Postman API Fundamentals Student Expert</td>
+        <td>Postman Academy</td>
+        <td class="link-col"><a href="https://academy.postman.com/postman-api-fundamentals-student-expert-certification-1">academy.postman.com/…student-expert-certification-1</a></td>
+        <td class="cost-col">FREE</td>
+        <td>3–4 hrs</td>
+        <td>✅ Digital badge</td>
+      </tr>
+      <tr>
+        <td><strong>C2</strong></td>
+        <td>Free POSTMAN and SOAP UI Web Services Fundamentals</td>
+        <td>Udemy</td>
+        <td class="link-col"><a href="https://www.udemy.com/course/free-postman-and-soap-ui-web-services-fundamentals/">udemy.com/course/free-postman-and-soap-ui-web-services-fundamentals/</a></td>
+        <td class="cost-col">FREE</td>
+        <td>1.5 hrs</td>
+        <td>✅ Udemy cert</td>
+      </tr>
+      <tr>
+        <td><strong>C3</strong></td>
+        <td>SoapUI Basics Free Course</td>
+        <td>MindMajix</td>
+        <td class="link-col"><a href="https://mindmajix.com/free-courses/soapui-free-course">mindmajix.com/free-courses/soapui-free-course</a></td>
+        <td class="cost-col">FREE</td>
+        <td>2–3 hrs</td>
+        <td>✅ After quiz</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PHASE 2 -->
+  <div class="phase-header">PHASE 2 — Core SOAP/REST Deepening (Week 2–4)</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Course</th>
+        <th>Platform</th>
+        <th>Link</th>
+        <th>Cost</th>
+        <th>Hours</th>
+        <th>Certificate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>C4</strong></td>
+        <td>WebServices/REST API Testing with SoapUI + Real Time Projects</td>
+        <td>Udemy (Rahul Shetty)</td>
+        <td class="link-col"><a href="https://www.udemy.com/course/webservices-testing-with-soap-ui/">udemy.com/course/webservices-testing-with-soap-ui/</a></td>
+        <td class="cost-col">₹449–799</td>
+        <td>15–17 hrs</td>
+        <td>✅ Udemy cert</td>
+      </tr>
+      <tr>
+        <td><strong>C5</strong></td>
+        <td>OAuth 2.0 and OpenID Connect (Full Course)</td>
+        <td>YouTube (freeCodeCamp)</td>
+        <td class="link-col"><a href="https://www.youtube.com/watch?v=996OiexHze0">youtube.com/watch?v=996OiexHze0</a></td>
+        <td class="cost-col">FREE</td>
+        <td>3 hrs</td>
+        <td>❌ Knowledge only</td>
+      </tr>
+      <tr>
+        <td><strong>C6</strong></td>
+        <td>Swagger/OpenAPI — Official Getting Started</td>
+        <td>Swagger.io</td>
+        <td class="link-col"><a href="https://swagger.io/docs/specification/about/">swagger.io/docs/specification/about/</a></td>
+        <td class="cost-col">FREE</td>
+        <td>2–3 hrs</td>
+        <td>❌ Practice</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PHASE 3 -->
+  <div class="phase-header">PHASE 3 — Aviation Domain (Week 3–4)</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Course</th>
+        <th>Platform</th>
+        <th>Link</th>
+        <th>Cost</th>
+        <th>Hours</th>
+        <th>Certificate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>C7</strong></td>
+        <td>IATA Distribution &amp; Airline Retailing with NDC</td>
+        <td>IATA Training</td>
+        <td class="link-col"><a href="https://www-ade.iata.org/en/training/courses/distribution-retailing-ndc/tttg24/en/">www-ade.iata.org/…distribution-retailing-ndc/tttg24/en/</a></td>
+        <td class="cost-col">USD 120 (~₹10,000)</td>
+        <td>5 hrs</td>
+        <td>✅ IATA e-certificate</td>
+      </tr>
+      <tr>
+        <td><strong>C8</strong></td>
+        <td>Navitaire Developer Portal — Self-Study</td>
+        <td>Navitaire</td>
+        <td class="link-col"><a href="https://developer.navitaire.com/">developer.navitaire.com/</a></td>
+        <td class="cost-col">FREE</td>
+        <td>Ongoing</td>
+        <td>❌ Knowledge only</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PHASE 4 -->
+  <div class="phase-header">PHASE 4 — API Architecture (Week 4–6)</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Course</th>
+        <th>Platform</th>
+        <th>Link</th>
+        <th>Cost</th>
+        <th>Hours</th>
+        <th>Certificate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>C9</strong></td>
+        <td>API Development and Architecture Specialization</td>
+        <td>Coursera (Edureka)</td>
+        <td class="link-col"><a href="https://www.coursera.org/specializations/api-development-and-architecture">coursera.org/specializations/api-development-and-architecture</a></td>
+        <td class="cost-col">FREE (audit)</td>
+        <td>40 hrs</td>
+        <td>✅ If paid</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PHASE 5 -->
+  <div class="phase-header">PHASE 5 — Build Project</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Resource</th>
+        <th>Platform</th>
+        <th>Link</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>P1</strong></td>
+        <td>Python Flask REST API Tutorial (Beginner)</td>
+        <td>YouTube (Dave Gray)</td>
+        <td class="link-col"><a href="https://www.youtube.com/watch?v=z3YMz-Gocmw">youtube.com/watch?v=z3YMz-Gocmw</a></td>
+        <td class="cost-col">FREE</td>
+      </tr>
+      <tr>
+        <td><strong>P2</strong></td>
+        <td>Swagger Editor (Live)</td>
+        <td>swagger.io</td>
+        <td class="link-col"><a href="https://editor.swagger.io">editor.swagger.io</a></td>
+        <td class="cost-col">FREE</td>
+      </tr>
+      <tr>
+        <td><strong>P3</strong></td>
+        <td>Google OAuth Playground</td>
+        <td>Google</td>
+        <td class="link-col"><a href="https://developers.google.com/oauthplayground">developers.google.com/oauthplayground</a></td>
+        <td class="cost-col">FREE</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- AVIATION DOMAIN SELF-STUDY -->
+  <div class="phase-header">Aviation Domain Self-Study</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Topic</th>
+        <th>Resource</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>D1</strong></td>
+        <td>Interline vs Codeshare explained</td>
+        <td>YouTube: "interline vs codeshare explained simply"</td>
+      </tr>
+      <tr>
+        <td><strong>D2</strong></td>
+        <td>NDC — how it works</td>
+        <td>YouTube: "IATA NDC explained" + <a href="https://developer.iata.org/en/learn/">developer.iata.org/en/learn/</a></td>
+      </tr>
+      <tr>
+        <td><strong>D3</strong></td>
+        <td>How OTAs connect to airlines</td>
+        <td>YouTube: "how OTAs connect to airline APIs"</td>
+      </tr>
+      <tr>
+        <td><strong>D4</strong></td>
+        <td>WSDL structure for SOAP</td>
+        <td>Covered in C4 (SoapUI course)</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div><!-- end catalogue-page -->
+
+
+<!-- ======================================================
+     PAGES 4-8: DAY-BY-DAY TIMETABLE
+     ====================================================== -->
+
+<!-- WEEK 1 -->
+<div class="page week-block page-break">
+  <div class="week-header">
+    WEEK 1: Mar 25 (Tue) – Mar 30 (Sun)
+    <div class="week-subheader">"Get 3 Free Certifications"</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="cb">☐</th>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Ref</th>
+        <th>Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Tue</td>
+        <td>Mar 25</td>
+        <td>7–10 PM (3 hrs)</td>
+        <td>Postman Academy — Sign up, start course. Complete modules 1-3 (API basics, first requests, variables)</td>
+        <td>C1</td>
+        <td>Postman installed, account created</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Wed</td>
+        <td>Mar 26</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Postman Academy — Complete modules 4-6 (auth, scripting, tests). Submit final collection. GET BADGE.</td>
+        <td>C1</td>
+        <td class="outcome-ok">✅ POSTMAN CERT DONE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Thu</td>
+        <td>Mar 27</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>Udemy Free SOAP/REST course — Watch all sections (1.5 hrs). Take notes on SOAP vs REST differences.</td>
+        <td>C2</td>
+        <td class="outcome-ok">✅ UDEMY SOAP/REST CERT DONE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Fri</td>
+        <td>Mar 28</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>MindMajix SoapUI Basics — Go through all modules. Install SoapUI on laptop. Run first SOAP request.</td>
+        <td>C3</td>
+        <td>SoapUI installed, first WSDL imported</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Mar 29</td>
+        <td>9 AM–1 PM (4 hrs)</td>
+        <td>MindMajix SoapUI — Complete remaining modules. Take quiz. GET CERTIFICATE. Practice with free public WSDL.</td>
+        <td>C3</td>
+        <td class="outcome-ok">✅ SOAPUI BASICS CERT DONE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Mar 30</td>
+        <td>10 AM–12 PM (2 hrs)</td>
+        <td>Aviation domain — YouTube: Watch 3-4 videos on interline/codeshare/NDC. Take notes.</td>
+        <td>D1, D2</td>
+        <td>Conceptual understanding</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Mar 30</td>
+        <td>2–4 PM (2 hrs)</td>
+        <td>Review week — Update LinkedIn with 3 new certs. Update resume. Create study notes document.</td>
+        <td>—</td>
+        <td>Resume Version A sendable</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- WEEK 2 -->
+<div class="page week-block page-break">
+  <div class="week-header">
+    WEEK 2: Mar 31 (Mon) – Apr 6 (Sun)
+    <div class="week-subheader">"Deep SoapUI Course"</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="cb">☐</th>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Ref</th>
+        <th>Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Mon</td>
+        <td>Mar 31</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Buy + start Udemy SoapUI Advanced — Sec 1: Intro to Webservices (1 hr) + Sec 2: SoapUI Basics (50 min)</td>
+        <td>C4</td>
+        <td>WSDL, SOAP protocol understood</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Tue</td>
+        <td>Apr 1</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>SoapUI Advanced — Sec 3: Manual Testing (1.5 hrs). Practice assertions, XPath, properties.</td>
+        <td>C4</td>
+        <td>Basic SOAP test cases written</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Wed</td>
+        <td>Apr 2</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>SoapUI Advanced — Sec 4: Automation Testing (1.5 hrs). Groovy scripting basics. First automated test.</td>
+        <td>C4</td>
+        <td>First Groovy script running</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Thu</td>
+        <td>Apr 3</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>SoapUI Advanced — Sec 5: REST API Testing. REST project, Swagger imports, auth headers.</td>
+        <td>C4</td>
+        <td>SOAP and REST tested in SoapUI</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Fri</td>
+        <td>Apr 4</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>SoapUI Advanced — Sec 6: Framework development. Jenkins/CI overview.</td>
+        <td>C4</td>
+        <td>Test framework structure understood</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 5</td>
+        <td>9 AM–1 PM (4 hrs)</td>
+        <td>SoapUI Advanced — Sec 7: Real-time projects. Complete 2-3 projects. Practice mocking.</td>
+        <td>C4</td>
+        <td>Hands-on project experience</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 6</td>
+        <td>10 AM–1 PM (3 hrs)</td>
+        <td>SoapUI Advanced — Complete remaining sections. Final projects + interview questions. Download cert.</td>
+        <td>C4</td>
+        <td class="outcome-ok">✅ SOAPUI ADVANCED CERT DONE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 6</td>
+        <td>2–4 PM (2 hrs)</td>
+        <td>OAuth 2.0 — Watch freeCodeCamp OAuth 2.0 course (first 1.5 hrs). Take notes.</td>
+        <td>C5</td>
+        <td>OAuth flow understood</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- WEEK 3 -->
+<div class="page week-block page-break">
+  <div class="week-header">
+    WEEK 3: Apr 7 (Mon) – Apr 13 (Sun)
+    <div class="week-subheader">"IATA NDC + API Security + Swagger"</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="cb">☐</th>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Ref</th>
+        <th>Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Mon</td>
+        <td>Apr 7</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Enroll IATA NDC e-learning ($120). Start Module 1: Airline distribution lifecycle.</td>
+        <td>C7</td>
+        <td>Enrolled. Module 1 done.</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Tue</td>
+        <td>Apr 8</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>IATA NDC — Module 2: Direct/indirect distribution + TMC processes.</td>
+        <td>C7</td>
+        <td>GDS vs direct channels understood</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Wed</td>
+        <td>Apr 9</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>IATA NDC — Module 3: NDC technology and standards + One Order.</td>
+        <td>C7</td>
+        <td>NDC architecture understood</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Thu</td>
+        <td>Apr 10</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>IATA NDC — Module 4: NDC simulation exercise. Complete remaining sections.</td>
+        <td>C7</td>
+        <td>All modules done</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Fri</td>
+        <td>Apr 11</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>IATA NDC — Take assessment (70% pass, 2 attempts). GET E-CERTIFICATE.</td>
+        <td>C7</td>
+        <td class="outcome-ok">✅ IATA NDC CERT DONE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 12</td>
+        <td>9 AM–12 PM (3 hrs)</td>
+        <td>OAuth 2.0 — Finish freeCodeCamp (remaining 1.5 hrs). Practice in Google OAuth Playground.</td>
+        <td>C5, P3</td>
+        <td>Hands-on OAuth flows</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 12</td>
+        <td>1–3 PM (2 hrs)</td>
+        <td>Swagger/OpenAPI — Read official docs. Open editor.swagger.io. Write first OpenAPI spec.</td>
+        <td>C6, P2</td>
+        <td>Basic Swagger YAML written</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 13</td>
+        <td>10 AM–1 PM (3 hrs)</td>
+        <td>Swagger — Write complete API spec for mock airline booking API (3-4 endpoints). Save YAML.</td>
+        <td>C6, P2</td>
+        <td>Swagger spec ready for project</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 13</td>
+        <td>2–3 PM (1 hr)</td>
+        <td>Navitaire Developer Portal — Browse docs, training videos, API reference. Take notes.</td>
+        <td>C8</td>
+        <td>Navitaire conceptual understanding</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- WEEK 4 -->
+<div class="page week-block page-break">
+  <div class="week-header">
+    WEEK 4: Apr 14 (Mon) – Apr 20 (Sun)
+    <div class="week-subheader">"Coursera + Build Project"</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="cb">☐</th>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Ref</th>
+        <th>Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Mon</td>
+        <td>Apr 14</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Coursera API Specialization — Enroll (audit). Course 1: Getting Started with APIs — Module 1.</td>
+        <td>C9</td>
+        <td>Enrolled. API fundamentals refreshed.</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Tue</td>
+        <td>Apr 15</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Coursera — Course 1, Modules 2-3. Complete quizzes.</td>
+        <td>C9</td>
+        <td>Course 1 progressing</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Wed</td>
+        <td>Apr 16</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Flask Tutorial — Watch Dave Gray tutorial (40 min). Set up Flask locally. Build hello-world API.</td>
+        <td>P1</td>
+        <td>Flask installed, first endpoint running</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Thu</td>
+        <td>Apr 17</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>PROJECT: Build POST /api/auth/token + GET /api/flights endpoints</td>
+        <td>Project</td>
+        <td>2 endpoints working</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Fri</td>
+        <td>Apr 18</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>PROJECT: Build POST /api/bookings + GET /api/bookings/{pnr}</td>
+        <td>Project</td>
+        <td>4 endpoints working</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 19</td>
+        <td>9 AM–1 PM (4 hrs)</td>
+        <td>PROJECT: Build POST /api/checkin/{pnr}. Add error handling + token validation.</td>
+        <td>Project</td>
+        <td>5 endpoints with auth</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 19</td>
+        <td>2–4 PM (2 hrs)</td>
+        <td>Coursera — Course 2: Modern API Development — Module 1.</td>
+        <td>C9</td>
+        <td>API design patterns</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 20</td>
+        <td>10 AM–2 PM (4 hrs)</td>
+        <td>PROJECT: Write Swagger docs for all endpoints. Test in Postman. Export collection.</td>
+        <td>Project</td>
+        <td>Swagger + Postman ready</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 20</td>
+        <td>3–4 PM (1 hr)</td>
+        <td>Aviation domain — YouTube: "How OTAs connect to airline APIs" + Navitaire notes review.</td>
+        <td>D3, C8</td>
+        <td>OTA integration concept clear</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- WEEK 5 -->
+<div class="page week-block page-break">
+  <div class="week-header">
+    WEEK 5: Apr 21 (Mon) – Apr 27 (Sun)
+    <div class="week-subheader">"Finish Project + Coursera + Interview Prep"</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="cb">☐</th>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Ref</th>
+        <th>Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Mon</td>
+        <td>Apr 21</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>PROJECT SOAP: Research Zeep/Spyne. Add SOAP GetAvailability endpoint.</td>
+        <td>Project</td>
+        <td>SOAP endpoint working</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Tue</td>
+        <td>Apr 22</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>PROJECT: Write README.md (architecture diagram, endpoint table, how to run/test).</td>
+        <td>Project</td>
+        <td>README complete</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Wed</td>
+        <td>Apr 23</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>PROJECT: Push to GitHub as airline-booking-api-simulator.</td>
+        <td>Project</td>
+        <td class="outcome-ok">✅ PROJECT LIVE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Thu</td>
+        <td>Apr 24</td>
+        <td>7–9:30 PM (2.5 hrs)</td>
+        <td>Coursera — Course 2: Modules 2-3. API security, gateways.</td>
+        <td>C9</td>
+        <td>API security understood</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Fri</td>
+        <td>Apr 25</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>Coursera — Course 3: Protecting and Managing APIs — Module 1.</td>
+        <td>C9</td>
+        <td>Encryption, TLS, keys</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 26</td>
+        <td>9 AM–1 PM (4 hrs)</td>
+        <td>Coursera — Course 3 complete + Course 4: Advanced API Technologies (GraphQL, gRPC).</td>
+        <td>C9</td>
+        <td>Courses 3-4 progressing</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>Apr 26</td>
+        <td>2–4 PM (2 hrs)</td>
+        <td>Interview prep — Write answers to 10 likely questions. Practice out loud.</td>
+        <td>—</td>
+        <td>Script ready</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 27</td>
+        <td>10 AM–1 PM (3 hrs)</td>
+        <td>Coursera — Course 4 complete. Finish specialization.</td>
+        <td>C9</td>
+        <td class="outcome-ok">✅ COURSERA DONE</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>Apr 27</td>
+        <td>2–4 PM (2 hrs)</td>
+        <td>Full review — Re-read all notes. SOAP vs REST, OAuth, NDC, booking flow.</td>
+        <td>All</td>
+        <td>Knowledge consolidated</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- WEEK 6 -->
+<div class="page week-block page-break">
+  <div class="week-header">
+    WEEK 6: Apr 28 (Mon) – May 5 (Mon)
+    <div class="week-subheader">"Resume + Referrals + Apply"</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="cb">☐</th>
+        <th>Day</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Ref</th>
+        <th>Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Mon</td>
+        <td>Apr 28</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>Resume update to Version B. Move all certs to Completed. Add project. Compile on Overleaf.</td>
+        <td>Resume</td>
+        <td class="outcome-ok">✅ FINAL RESUME READY</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Tue</td>
+        <td>Apr 29</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>LinkedIn update. Search 10 AI/AIX employees. Send 5 connection requests.</td>
+        <td>LinkedIn</td>
+        <td>5 connections pending</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Wed</td>
+        <td>Apr 30</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>Interview prep — Mock Q&amp;A: SOAP vs REST, NDC, booking flow, behavioral stories.</td>
+        <td>—</td>
+        <td>Answers refined</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Thu</td>
+        <td>May 1</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>Send 3-5 more LinkedIn connections. Follow up with accepted ones. Send referral message.</td>
+        <td>LinkedIn</td>
+        <td>Referral outreach active</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Fri</td>
+        <td>May 2</td>
+        <td>7–9 PM (2 hrs)</td>
+        <td>Interview prep — Postman demo, SoapUI demo, Swagger walkthrough. Prepare laptop.</td>
+        <td>—</td>
+        <td>Demo-ready</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>May 3</td>
+        <td>10 AM–12 PM (2 hrs)</td>
+        <td>APPLY — Internal referral if secured. Otherwise careers.airindia.com + email HR.</td>
+        <td>Application</td>
+        <td class="outcome-ok">✅ APPLICATION SUBMITTED</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sat</td>
+        <td>May 3</td>
+        <td>1–3 PM (2 hrs)</td>
+        <td>Final mock interview. Record. Listen back. Fix weak spots.</td>
+        <td>—</td>
+        <td>Confident</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Sun</td>
+        <td>May 4</td>
+        <td>—</td>
+        <td>REST DAY</td>
+        <td>—</td>
+        <td>Recharge</td>
+      </tr>
+      <tr>
+        <td class="cb">☐</td>
+        <td>Mon</td>
+        <td>May 5</td>
+        <td>—</td>
+        <td>Follow up with HR + LinkedIn contacts.</td>
+        <td>—</td>
+        <td>Application in motion</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ======================================================
+     PAGE 9: INTERVIEW PREPARATION
+     ====================================================== -->
+<div class="page page-break">
+
+  <div class="section-header">INTERVIEW PREPARATION — 10 KEY QUESTIONS</div>
+
+  <table class="interview-table">
+    <thead>
+      <tr>
+        <th style="width:26px">#</th>
+        <th style="width:24%">Question</th>
+        <th style="width:20%">What They Test</th>
+        <th>Your Answer Should Include</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1</strong></td>
+        <td>Explain the difference between SOAP and REST</td>
+        <td>Technical basics</td>
+        <td>Protocol vs architecture, XML vs JSON, WSDL vs OpenAPI, when to use each</td>
+      </tr>
+      <tr>
+        <td><strong>2</strong></td>
+        <td>Walk me through a typical airline booking API flow</td>
+        <td>Navitaire domain</td>
+        <td>Availability → Sell → Add Pax → Payment → Commit → PNR returned</td>
+      </tr>
+      <tr>
+        <td><strong>3</strong></td>
+        <td>What is NDC and why does it matter?</td>
+        <td>Aviation domain</td>
+        <td>IATA standard, replaces GDS, JSON-based, richer content, direct distribution</td>
+      </tr>
+      <tr>
+        <td><strong>4</strong></td>
+        <td>How would you troubleshoot a failed API integration?</td>
+        <td>Problem-solving</td>
+        <td>Check response code → Check auth/token → Check payload → Check logs → Reproduce → Escalate with evidence</td>
+      </tr>
+      <tr>
+        <td><strong>5</strong></td>
+        <td>What is OAuth 2.0 and how does it work?</td>
+        <td>API security</td>
+        <td>Authorization framework, access tokens, grant types, client credentials</td>
+      </tr>
+      <tr>
+        <td><strong>6</strong></td>
+        <td>Tell me about a time you managed a project independently</td>
+        <td>Behavioral</td>
+        <td>CBTA-EBT rollout: sole SPOC, 6,000 crew, 100% adoption, cross-functional</td>
+      </tr>
+      <tr>
+        <td><strong>7</strong></td>
+        <td>What is interline vs codeshare?</td>
+        <td>Aviation domain</td>
+        <td>Interline = multiple airlines one ticket. Codeshare = one plane multiple flight numbers</td>
+      </tr>
+      <tr>
+        <td><strong>8</strong></td>
+        <td>How do you write a BRD vs an FRD?</td>
+        <td>Documentation</td>
+        <td>BRD = what the business needs. FRD = how the system delivers it. Field-level detail.</td>
+      </tr>
+      <tr>
+        <td><strong>9</strong></td>
+        <td>Show me something you've built</td>
+        <td>Proof</td>
+        <td>Laptop → airline-booking-api-simulator → Swagger → Postman → live demo</td>
+      </tr>
+      <tr>
+        <td><strong>10</strong></td>
+        <td>Why move from IndiGo to Air India Express?</td>
+        <td>Motivation</td>
+        <td>Deeper into API integration, aviation context + API literacy from IndiGo, AIX = Navitaire APIs + OTA + NDC at platform level</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+<!-- ======================================================
+     PAGE 10: INVESTMENT SUMMARY & CHECKLIST
+     ====================================================== -->
+<div class="page page-break">
+
+  <div class="section-header">INVESTMENT SUMMARY &amp; FINAL CHECKLIST</div>
+
+  <!-- INVESTMENT TABLE -->
+  <div class="phase-header">Total Investment</div>
+  <table style="margin-bottom:24px">
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th style="width:90px">Hours</th>
+        <th style="width:130px">Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Postman Academy cert</td><td>3.5 hrs</td><td>FREE</td></tr>
+      <tr><td>Udemy Free SOAP/REST</td><td>1.5 hrs</td><td>FREE</td></tr>
+      <tr><td>MindMajix SoapUI Basics</td><td>3 hrs</td><td>FREE</td></tr>
+      <tr><td>Udemy SoapUI Advanced</td><td>17 hrs</td><td>₹449–799</td></tr>
+      <tr><td>OAuth 2.0 (freeCodeCamp)</td><td>3 hrs</td><td>FREE</td></tr>
+      <tr><td>Swagger/OpenAPI (self-study)</td><td>4 hrs</td><td>FREE</td></tr>
+      <tr><td>IATA NDC e-learning</td><td>5 hrs</td><td>₹10,000</td></tr>
+      <tr><td>Navitaire Developer Portal</td><td>3 hrs</td><td>FREE</td></tr>
+      <tr><td>Coursera API Specialization</td><td>20 hrs</td><td>FREE (audit)</td></tr>
+      <tr><td>Flask tutorial + Project</td><td>18 hrs</td><td>FREE</td></tr>
+      <tr><td>Aviation domain (YouTube)</td><td>4 hrs</td><td>FREE</td></tr>
+      <tr><td>Interview prep</td><td>8 hrs</td><td>FREE</td></tr>
+      <tr><td>Resume/LinkedIn updates</td><td>4 hrs</td><td>FREE</td></tr>
+      <tr class="total-row"><td><strong>TOTAL</strong></td><td><strong>~94 hrs</strong></td><td><strong>~₹11,000</strong></td></tr>
+    </tbody>
+  </table>
+
+  <!-- CHECKLIST -->
+  <div class="phase-header">Final Pre-Send Checklist</div>
+  <ul class="checklist">
+    <li><span class="box">☐</span> Postman Academy cert completed</li>
+    <li><span class="box">☐</span> Udemy SOAP/REST cert completed</li>
+    <li><span class="box">☐</span> MindMajix SoapUI cert completed</li>
+    <li><span class="box">☐</span> Udemy SoapUI Advanced cert completed</li>
+    <li><span class="box">☐</span> IATA NDC cert completed</li>
+    <li><span class="box">☐</span> Coursera API specialization completed (audit)</li>
+    <li><span class="box">☐</span> OAuth 2.0 course watched</li>
+    <li><span class="box">☐</span> Swagger spec written and practiced</li>
+    <li><span class="box">☐</span> Airline Booking API Simulator on GitHub</li>
+    <li><span class="box">☐</span> Resume updated to Version B (May 2026)</li>
+    <li><span class="box">☐</span> LinkedIn updated with all certs + project</li>
+    <li><span class="box">☐</span> 10 AI/AIX LinkedIn connections sent</li>
+    <li><span class="box">☐</span> Referral message sent to accepted connections</li>
+    <li><span class="box">☐</span> Job posting (Ref: 44036244) still live — verified</li>
+    <li><span class="box">☐</span> Application submitted (referral or direct)</li>
+    <li><span class="box">☐</span> Follow-up email sent to HR</li>
+    <li><span class="box">☐</span> Interview prep — 10 questions rehearsed</li>
+    <li><span class="box">☐</span> Laptop ready for live demo (Postman + SoapUI + Swagger + project)</li>
+  </ul>
+
+</div>
+
+</body>
+</html>

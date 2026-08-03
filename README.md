@@ -42,7 +42,7 @@
     <img alt="Profile" src="https://www.jcs-profile.com/images/icons/profile.svg" width="5%" />
   </a>
   &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/sushank-sharma-ss21/" target="_blank">
+  <a href="https://www.linkedin.com/in/sushank-sharma-itba/" target="_blank">
     <img alt="LinkedIn" src="https://www.jcs-profile.com/images/icons/linkedin.svg" width="5%" />
   </a>
   &nbsp;•&nbsp;
